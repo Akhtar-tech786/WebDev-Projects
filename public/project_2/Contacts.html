@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Contact form for a simple HTML-only website for roadmap.sh frontend" />
+    <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
+    <meta name="author" content="Akhtar Ali"/>
+    <title>Contacts Page</title>
+</head>
+<body>
+    <form action="" id="contacts" name="contacts-page" method="post" style="border: 2px solid black; height: 280px;">
+        <header style="display: flex; justify-content: space-between; margin-left: 10px;">
+            <h2>Contact Me</h2>
+            <nav style="flex-grow: 0.2;">
+                <ul style="display: flex; justify-content: space-around; list-style: none; padding: 0;">
+                    <li><a href="homepage.html" target="_blank">Home</a></li>
+                    <li><a href="projects.html" target="_blank">Projects</a></li>
+                    <li><a href="articles.html" target="_blank">Article</a></li>
+                    <li><a href="Contacts.html" target="_blank">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div style="margin: 0 0 10px 10px;">
+                <label for="name">Name :&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="Name" id="name" minlength="3" placeholder="Enter your name" required>
+            </div>
+            <div style="margin: 0 0 10px 10px;">
+                <label for="e-mail">E-mail :&nbsp;&nbsp;&nbsp;</label>
+                <input type="email" name="E-mail" id="email" placeholder="Enter your e-mail address" required>
+            </div>
+            <div style="margin: 0 0 10px 10px;">
+                <label for="message">Message :</label>
+                <textarea name="Message" id="message" rows="5" placeholder="Enter your message" required></textarea>
+            </div>
+
+            <button type="submit" style="margin: 0 0 0 10px;">Submit</button>
+        </main>
+    </form>
+</body>
+</html>
